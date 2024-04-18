@@ -63,6 +63,7 @@ def menu1():
     menu.add_item(MenuItem("Ejercicio 6", lambda: f.read_file("6.py")))
     menu.add_item(MenuItem("Ejercicio 7", lambda: f.read_file("7.py")))
     menu.add_item(MenuItem("Ejercicio 8", lambda: f.read_file("8.py")))
+    menu.add_item(MenuItem("Ejercicio 9", lambda: f.read_file("9.py")))
     menu.add_item(MenuItem("Menu Principal",lambda: menup.run()))
     
     return menu
@@ -78,6 +79,7 @@ def menu2():
     menu.add_item(MenuItem("Ejercicio 6", lambda: f.execute_script("6.py")))
     menu.add_item(MenuItem("Ejercicio 7", lambda: f.execute_script("7.py")))
     menu.add_item(MenuItem("Ejercicio 8", lambda: f.execute_script("8.py")))
+    menu.add_item(MenuItem("Ejercicio 9", lambda: f.execute_script("9.py")))
     menu.add_item(MenuItem("Menu Principal",lambda: menup.run()))
     
     return menu
