@@ -58,6 +58,11 @@ def menu1():
     menu.add_item(MenuItem("Ejercicio 1", lambda: f.read_file("1.py")))
     menu.add_item(MenuItem("Ejercicio 2", lambda: f.read_file("2.py")))
     menu.add_item(MenuItem("Ejercicio 3", lambda: f.read_file("3.py")))
+    menu.add_item(MenuItem("Ejercicio 4", lambda: f.read_file("4.py")))
+    menu.add_item(MenuItem("Ejercicio 5", lambda: f.read_file("5.py")))
+    menu.add_item(MenuItem("Ejercicio 6", lambda: f.read_file("6.py")))
+    menu.add_item(MenuItem("Ejercicio 7", lambda: f.read_file("7.py")))
+    menu.add_item(MenuItem("Ejercicio 8", lambda: f.read_file("8.py")))
     menu.add_item(MenuItem("Menu Principal",lambda: menup.run()))
     
     return menu
@@ -68,6 +73,11 @@ def menu2():
     menu.add_item(MenuItem("Ejercicio 1", lambda: f.execute_script("1.py")))
     menu.add_item(MenuItem("Ejercicio 2", lambda: f.execute_script("2.py")))
     menu.add_item(MenuItem("Ejercicio 3", lambda: f.execute_script("3.py")))
+    menu.add_item(MenuItem("Ejercicio 4", lambda: f.execute_script("4.py")))
+    menu.add_item(MenuItem("Ejercicio 5", lambda: f.execute_script("5.py")))
+    menu.add_item(MenuItem("Ejercicio 6", lambda: f.execute_script("6.py")))
+    menu.add_item(MenuItem("Ejercicio 7", lambda: f.execute_script("7.py")))
+    menu.add_item(MenuItem("Ejercicio 8", lambda: f.execute_script("8.py")))
     menu.add_item(MenuItem("Menu Principal",lambda: menup.run()))
     
     return menu
