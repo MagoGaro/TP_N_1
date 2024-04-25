@@ -7,5 +7,5 @@ número de comensales y mostrar cuánto debe pagar cada persona."""
 precioTotal = input("Ingrese importe total de su cuenta: ")
 comensales = input("cantidad de personas que comieron: ")
 
-total = f"{precioTotal} / {comensales}"
-print(f"Total por persona : {eval(total)}")
+total = float(precioTotal) / int(comensales)
+print("Total por persona :", round(total,2))

@@ -64,10 +64,10 @@ def menu1():
     menu.add_item(MenuItem("Ejercicio 7", lambda: f.read_file("7.py")))
     menu.add_item(MenuItem("Ejercicio 8", lambda: f.read_file("8.py")))
     menu.add_item(MenuItem("Ejercicio 9", lambda: f.read_file("9.py")))
-    menu.add_item(MenuItem("Ejercicio 9", lambda: f.read_file("10.py")))
-    menu.add_item(MenuItem("Ejercicio 9", lambda: f.read_file("11.py")))
-    menu.add_item(MenuItem("Ejercicio 9", lambda: f.read_file("12.py")))
-    menu.add_item(MenuItem("Ejercicio 9", lambda: f.read_file("13.py")))
+    menu.add_item(MenuItem("Ejercicio 10", lambda: f.read_file("10.py")))
+    menu.add_item(MenuItem("Ejercicio 11", lambda: f.read_file("11.py")))
+    menu.add_item(MenuItem("Ejercicio 12", lambda: f.read_file("12.py")))
+    menu.add_item(MenuItem("Ejercicio 13", lambda: f.read_file("13.py")))
     menu.add_item(MenuItem("Menu Principal",lambda: menup.run()))
     
     return menu
@@ -84,10 +84,10 @@ def menu2():
     menu.add_item(MenuItem("Ejercicio 7", lambda: f.execute_script("7.py")))
     menu.add_item(MenuItem("Ejercicio 8", lambda: f.execute_script("8.py")))
     menu.add_item(MenuItem("Ejercicio 9", lambda: f.execute_script("9.py")))
-    menu.add_item(MenuItem("Ejercicio 9", lambda: f.execute_script("10.py")))
-    menu.add_item(MenuItem("Ejercicio 9", lambda: f.execute_script("11.py")))
-    menu.add_item(MenuItem("Ejercicio 9", lambda: f.execute_script("12.py")))
-    menu.add_item(MenuItem("Ejercicio 9", lambda: f.execute_script("13.py")))
+    menu.add_item(MenuItem("Ejercicio 10", lambda: f.execute_script("10.py")))
+    menu.add_item(MenuItem("Ejercicio 11", lambda: f.execute_script("11.py")))
+    menu.add_item(MenuItem("Ejercicio 12", lambda: f.execute_script("12.py")))
+    menu.add_item(MenuItem("Ejercicio 13", lambda: f.execute_script("13.py")))
     menu.add_item(MenuItem("Menu Principal",lambda: menup.run()))
     
     return menu

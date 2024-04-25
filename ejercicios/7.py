@@ -4,7 +4,8 @@ segundos son esos números de días"""
 
 #Codigo
 dias = input("cantidad de días: ")
-horas = f"{dias} * 24"
-minutos = eval(horas) * 60
+
+horas = int(dias) * 24
+minutos = horas * 60
 segundos = minutos * 60
-print(f"La cantidad de hora es: {eval(horas)} minutos: {minutos} segundos: {segundos}")
+print(dias,"días son:", horas,"Horas" ,minutos,"Minutos",segundos,"Segundos")

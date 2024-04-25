@@ -6,11 +6,12 @@ def limpiar():
 def banner_bienvenida():
     print("""\n 
     Hola ! bienvenidos a la presentación del
-        Trabajo Practico Integrador N°1\n""")
+        Trabajo Practico  N°1\n""")
 
 def read_file(filename):
     try:
-        with open('./ejercicios/'+filename, 'r') as f:
+        filepath = os.path.join('./ejercicios/', filename)
+        with open(filepath, 'r', encoding="utf-8") as f:
             content = f.read()
             print(content)
             print("\n")
@@ -24,8 +25,8 @@ def execute_script(script_path):
     try:
         print("Ejecutando Script ...")
         print("\n")
-        subprocess.run(['python3', "./ejercicios/"+script_path])
-        #cambiar python3 por el comando que usen para ejecutar
+        subprocess.run(['py', "./ejercicios/"+script_path])
+        #cambiar py por el comando que usen para ejecutar
         print("\n")
         print("Finaliza Ejecición ...")
         print("\n")

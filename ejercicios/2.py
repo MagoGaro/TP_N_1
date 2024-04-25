@@ -5,4 +5,4 @@ es el nombre que ingresó el usuario."""
 
 #Código
 nombre = input("Ingrese su nombre: ")
-print(f"Hola {nombre}")
+print("Hola " + nombre)

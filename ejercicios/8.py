@@ -6,5 +6,5 @@ luego imprimir por pantalla la superficie total."""
 base = input("Ingrese para la base: ")
 altura = input("Ingrese para la altura: ")
 
-superficie = f"({base} * {altura}) / 2"
-print(f"La superficie total es: {eval(superficie)} m²")
+superficie = (float(base) * float(altura)) / 2
+print("La superficie total es:" ,superficie,"m²")
