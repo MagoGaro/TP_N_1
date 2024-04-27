@@ -3,7 +3,7 @@
 derecho que al revés. Por ejemplo: rayar, kayak, somos."""
 
 #Codigo
-texto = input("Ingrese un texto: ")
+texto = input("Ingrese un texto: ").lower()
 
 #print(f"El texto {texto} es palíndromo" if texto == texto[::-1] else f"El texto {texto} no es palíndromo")
 

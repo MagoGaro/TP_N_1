@@ -5,12 +5,12 @@ usuario y contraseña. Por ejemplo: nombre: Martín, apellido: Francisconi, Año
 1985 -> Usuario: mfrancisconi, Contraseña: mf.1985."""
 
 #Código
-nombre = input("Ingrese su nombre: ")
-apellido = input("Ingrese su apellido: ")
+nombre = input("Ingrese su nombre: ").lower()
+apellido = input("Ingrese su apellido: ").lower()
 anio_nacimiento = input("Ingrese su año de nacimiento: ")
 
-usuario = nombre[0:1].lower() + apellido.lower()
-contrasena = nombre[0:1].lower() + apellido[0:1].lower() + "." + anio_nacimiento
+usuario = nombre[0:1] + apellido
+contrasena = nombre[0:1] + apellido[0:1] + "." + anio_nacimiento
 
 print("Usuario: "+usuario+'\n'+"Contrasena: "+contrasena)
 
